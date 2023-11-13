@@ -12,7 +12,7 @@ def signin():
 def ventana_1tkinter():
     #   Primera Ventana | Inicio
     ventana_main = tkinter.Tk()
-    ventana_main.title("Restorant SLP")
+    ventana_main.title("Restaurant SLP")
     ventana_main.geometry("370x330")
     inicio = tkinter.Label(ventana_main, text = "Mi Restaurante",\
         font = "Helvetica 14")
